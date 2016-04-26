@@ -6,8 +6,8 @@ import (
 	"errors"
 	"sync"
 
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/internal/queue"
+	"github.com/lvdlvd/go-capnproto2"
+	"github.com/lvdlvd/go-capnproto2/internal/queue"
 )
 
 // callQueueSize is the maximum number of pending calls.

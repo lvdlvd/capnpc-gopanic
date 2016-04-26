@@ -10,8 +10,8 @@ import (
 	"time"
 	"unsafe"
 
-	"zombiezen.com/go/capnproto2"
-	air "zombiezen.com/go/capnproto2/internal/aircraftlib"
+	"github.com/lvdlvd/go-capnproto2"
+	air "github.com/lvdlvd/go-capnproto2/internal/aircraftlib"
 )
 
 // A marshalTest tests whether a message can be encoded then read by the

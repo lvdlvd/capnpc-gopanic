@@ -8,9 +8,9 @@ import (
 	"log"
 
 	"golang.org/x/net/context"
-	"zombiezen.com/go/capnproto2/rpc"
-	"zombiezen.com/go/capnproto2/rpc/internal/logutil"
-	"zombiezen.com/go/capnproto2/rpc/rpccapnp"
+	"github.com/lvdlvd/go-capnproto2/rpc"
+	"github.com/lvdlvd/go-capnproto2/rpc/internal/logutil"
+	"github.com/lvdlvd/go-capnproto2/rpc/rpccapnp"
 )
 
 type transport struct {

@@ -6,8 +6,8 @@ import (
 	context "golang.org/x/net/context"
 	math "math"
 	strconv "strconv"
-	capnp "zombiezen.com/go/capnproto2"
-	server "zombiezen.com/go/capnproto2/server"
+	capnp "github.com/lvdlvd/go-capnproto2"
+	server "github.com/lvdlvd/go-capnproto2/server"
 )
 
 const (

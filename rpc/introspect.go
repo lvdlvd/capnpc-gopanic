@@ -3,9 +3,9 @@ package rpc
 import (
 	"log"
 
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/internal/fulfiller"
-	"zombiezen.com/go/capnproto2/rpc/rpccapnp"
+	"github.com/lvdlvd/go-capnproto2"
+	"github.com/lvdlvd/go-capnproto2/internal/fulfiller"
+	"github.com/lvdlvd/go-capnproto2/rpc/rpccapnp"
 )
 
 // nestedCall is called from the coordinate goroutine to make a client call.

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/rpc/rpccapnp"
+	"github.com/lvdlvd/go-capnproto2"
+	"github.com/lvdlvd/go-capnproto2/rpc/rpccapnp"
 )
 
 // An Exception is a Cap'n Proto RPC error.

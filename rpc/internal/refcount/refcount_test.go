@@ -3,7 +3,7 @@ package refcount
 import (
 	"testing"
 
-	"zombiezen.com/go/capnproto2"
+	"github.com/lvdlvd/go-capnproto2"
 )
 
 func TestSingleRefCloses(t *testing.T) {

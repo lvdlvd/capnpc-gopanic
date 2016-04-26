@@ -4,10 +4,10 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/internal/fulfiller"
-	"zombiezen.com/go/capnproto2/internal/queue"
-	"zombiezen.com/go/capnproto2/rpc/rpccapnp"
+	"github.com/lvdlvd/go-capnproto2"
+	"github.com/lvdlvd/go-capnproto2/internal/fulfiller"
+	"github.com/lvdlvd/go-capnproto2/internal/queue"
+	"github.com/lvdlvd/go-capnproto2/rpc/rpccapnp"
 )
 
 type questionTable struct {

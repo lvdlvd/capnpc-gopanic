@@ -5,10 +5,10 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/internal/fulfiller"
-	"zombiezen.com/go/capnproto2/internal/queue"
-	"zombiezen.com/go/capnproto2/rpc/rpccapnp"
+	"github.com/lvdlvd/go-capnproto2"
+	"github.com/lvdlvd/go-capnproto2/internal/fulfiller"
+	"github.com/lvdlvd/go-capnproto2/internal/queue"
+	"github.com/lvdlvd/go-capnproto2/rpc/rpccapnp"
 )
 
 // callQueueSize is the maximum number of calls that can be queued per answer or client.

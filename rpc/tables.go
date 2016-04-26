@@ -3,8 +3,8 @@ package rpc
 import (
 	"log"
 
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/rpc/internal/refcount"
+	"github.com/lvdlvd/go-capnproto2"
+	"github.com/lvdlvd/go-capnproto2/rpc/internal/refcount"
 )
 
 // Table IDs
