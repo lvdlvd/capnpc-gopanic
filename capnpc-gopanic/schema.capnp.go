@@ -5,7 +5,8 @@ package main
 import (
 	math "math"
 	strconv "strconv"
-	capnp "github.com/lvdlvd/go-capnproto2"
+
+	capnp "zombiezen.com/go/capnproto2"
 )
 
 const (
