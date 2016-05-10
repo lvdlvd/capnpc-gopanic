@@ -9,7 +9,7 @@ were largely of 3 categories:
 - allocation failures
 - corrupt structures because of decoding corrupt messages
 
-In all cases, it is a more convenient way to deal with them in a defer/recover.
+In all cases, it is more convenient to deal with them in a defer/recover.
 
 	defer() func(){
 		if err := recover() {
