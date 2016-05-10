@@ -19,9 +19,10 @@ In all cases, it is a more convenient way to deal with them as
 
 ## Getting started
 
-Familiarize yourself with 
-[godoc]: https://godoc.org/zombiezen.com/go/capnproto2
-[capnproto]: https://capnproto.org/
+Familiarize yourself with
+
+- [godoc]: https://godoc.org/zombiezen.com/go/capnproto2
+- [capnproto]: https://capnproto.org/
 
 Install this code generator
 
