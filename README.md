@@ -9,11 +9,11 @@ were largely of 3 categories:
 - allocation failures
 - corrupt structures because of decoding corrupt messages
 
-In all cases, it is a more convenient way to deal with them as
+In all cases, it is a more convenient way to deal with them in a defer/recover.
 
 	defer() func(){
 		if err := recover() {
-			// handle err }
+			// handle err
 		}
 	}()
 
@@ -36,3 +36,4 @@ invoke
 
 	capnp compile -ogo-panic ....
 
+Read the godoc of your generated code to see what the api looks like.
