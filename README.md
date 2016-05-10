@@ -9,7 +9,13 @@ were largely of 3 categories:
 - allocation failures
 - corrupt structures because of decoding corrupt messages
 
-In all cases, a defer() func(){ if err := recover() { // handle } }() is a more convenient way to deal with them.
+In all cases, it is a more convenient way to deal with them as
+
+	defer() func(){
+		if err := recover() {
+			// handle err }
+		}
+	}()
 
 ## Getting started
 
@@ -18,11 +24,14 @@ Familiarize yourself with
 [capnproto]: https://capnproto.org/
 
 Install this code generator
+
 	go get -u github.com/lvdlvd/capnpc-gopanic
 
 Instead of 
+
 	capnp compile -ogo ....
 
 invoke
+
 	capnp compile -ogo-panic ....
 
