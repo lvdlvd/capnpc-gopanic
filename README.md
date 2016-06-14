@@ -12,7 +12,7 @@ were largely of 3 categories:
 In all cases, it is more convenient to deal with them in a defer/recover.
 
 	defer() func(){
-		if err := recover() {
+		if err := recover(); err != nil {
 			// handle err
 		}
 	}()
